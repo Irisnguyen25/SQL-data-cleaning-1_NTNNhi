@@ -14442,5 +14442,149 @@ Select * from club_member_info_cleaned cmic where martial_status ='';
 |CONROY HARTIL|47||chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
 |ALFREDA ROCHES|40||arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
 
-
+#### UPDATE 'NULL' in those blank
+UPDATE club_member_info_cleaned SET martial_status ='NULL' where martial_status ='';
+Select * FROM club_member_info_cleaned cmic where martial_status ='NULL';
+|full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
+|---------|---|--------------|-----|-----|------------|---------|---------------|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
+|CONSTANTIN DE LA CRUZ|35|NULL|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|NIXIE JANUARY|44|NULL|njanuaryp@youtu.be|415-318-7190|65 Stephen Circle,San Francisco,California|Chemical Engineer|7/29/2017|
+|DANILA TEAGUE|42|NULL|dteague39@nydailynews.com|610-889-3130|9 Sugar Way,Philadelphia,Pennsylvania|Administrative Assistant III|8/29/2021|
+|TYRONE SHILLUM|25|NULL|tshillum57@sina.com.cn|502-336-9009|698 Sundown Circle,Frankfort,Kentucky|Structural Engineer|4/10/2018|
+|PRENTISS EPTON|42|NULL|pepton59@oracle.com|303-233-8382|58217 Holmberg Avenue,Boulder,Colorado|Professor|6/21/2014|
+|DENY GRAINGER|55|NULL|dgrainger7g@skyrock.com|650-380-1663|5 Corry Hill,Los Angeles,California|Budget/Accounting Analyst IV|3/29/2016|
+|NICCOLO CROSSER|46|NULL|ncrosserjv@imgur.com|954-707-4900|0155 Kensington Avenue,Hollywood,Florida|Technical Writer|11/11/2015|
+|DUSTY BACCUS|48|NULL|dbaccus8j@elegantthemes.com|763-502-9649|5893 Milwaukee Plaza,Loretto,Minnesota|Computer Systems Analyst II|9/30/2017|
+|MARJY RAIN|27|NULL|mrain9b@feedburner.com|713-699-1324|568 Oneill Way,Houston,Texas|Analyst Programmer|2/14/2022|
+|NOBIE BOLDERO|51|NULL|nbolderobx@blinklist.com|915-591-9005|34 Vera Plaza,San Juan, Puerto Rico|Account Coordinator|7/14/2021|
+|HILARY VON HELMHOLTZ|22|NULL|hvone2@symantec.com|601-743-4686|220 Waubesa Lane,Jackson,Mississippi|VP Marketing|2/19/2019|
+|SUNSHINE DUNBLETON|63|NULL|sdunbletonee@yellowpages.com|704-231-0109|79497 Milwaukee Point,Charlotte,North Carolina||2/10/2018|
+|ROXANNE YVON|46|NULL|ryvong5@phoca.cz|518-419-0786|127 Mockingbird Road,Albany,New York|Environmental Specialist|1/31/2017|
+|BUNNY AXON|51|NULL|baxonij@microsoft.com|281-943-2013|769 Annamark Parkway,Houston,Texas|Account Representative II|6/18/2018|
+|LAURE FRIER|62|NULL|lfrierkx@europa.eu|719-900-0790|1 Vahlen Street,Pueblo,Colorado|Actuary|3/18/2016|
+|GERRY GONNEL|23|NULL|ggonnellm@ftc.gov|203-181-0550|6 Elka Parkway,Waterbury,Connecticut|Senior Cost Accountant|9/29/2018|
+|JUNINA HELD|22|NULL|jheldnx@va.gov|315-201-6127|043 Forest Dale Way,Syracuse,New York|Librarian|8/4/2021|
+|CALLEAN CORRADINI|19|NULL|ccorradiniox@microsoft.com|941-391-8386|97 Dapin Avenue,Sarasota,Florida|Staff Scientist|4/29/2021|
+|CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
+|ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
 
