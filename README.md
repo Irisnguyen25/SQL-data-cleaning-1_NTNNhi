@@ -14588,3 +14588,73 @@ Select * FROM club_member_info_cleaned cmic where martial_status ='NULL';
 |CONROY HARTIL|47|NULL|chartilpx@loc.gov|828-639-3011|298 Oak Valley Avenue,Asheville,North Carolina|Pharmacist|3/30/2021|
 |ALFREDA ROCHES|40|NULL|arochesrd@tumblr.com|770-444-9152|83 Clove Plaza,Alpharetta,Georgia|Human Resources Manager|5/26/2021|
 
+#### Determine blank in phone column and update 'NULL' into those blanks
+---SELECT * FROM club_member_info_cleaned cmic WHERE phone ='';
+---UPDATE club_member_info_cleaned SET phone ='NULL' WHERE phone ='';
+---SELECT * FROM club_member_info_cleaned cmic where phone ='NULL';
+
+|full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
+|---------|---|--------------|-----|-----|------------|---------|---------------|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
+|SMITTY BULMER|40|divorced|sbulmergm@addthis.com|NULL|23370 Forest Dale Street,Pittsburgh,Pennsylvania|VP Marketing|9/25/2017|
+|FRANCISCO PISER|31|married|fpiserkc@tamu.edu|NULL|0 Northport Center,Alexandria,Virginia|Marketing Manager|8/4/2012|
+|MARION HAWLER|55|married|mhawler1p@pinterest.com|NULL|60701 Crest Line Drive,Fresno,California|Teacher|1/21/2022|
+|SHIRLINE ESHMADE|41|married|seshmade9h@ed.gov|NULL|331 Bellgrove Hill,Richmond,Virginia|Quality Engineer|10/8/2016|
+|CIRILLO BARTLOMIEJCZYK|31|divorced|cbartlomiejczykdj@networksolutions.com|NULL|4426 Rigney Alley,Henderson,Nevada|Analog Circuit Design manager|9/2/2015|
+|GAIL CUTLER|26|married|gcutlerf2@auda.org.au|NULL|242 Homewood Junction,Pittsburgh,Pennsylvania|Community Outreach Specialist|11/27/2019|
+|WILFRID DANILOV|63|married|wdanilovix@is.gd|NULL|5208 Tennyson Road,Dallas,Texas|Account Executive|5/16/2015|
+|JOELLA SURR|32|married|jsurrpo@meetup.com|NULL|775 Boyd Avenue,Houston,Texas|Nurse Practicioner|3/18/2017|
+|CLAYBORNE PENELLI|23|single|cpenellirf@apple.com|NULL|01412 Dunning Place,Washington,District of Columbia|Web Developer III|12/24/2021|
