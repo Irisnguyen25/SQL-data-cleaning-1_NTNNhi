@@ -217,5 +217,12 @@ SELECT * from club_member_info_cleaned cmic where age < 18 or age >90 or age is 
 |DENNI STALLARD|633|single|dstallardl9@devhub.com|816-567-5883|73737 Kinsman Street,Saint Joseph,Missouri|Nuclear Power Engineer|7/3/2018|
 |CATHRINE JONSON|222|married|cjonsonol@aboutads.info|559-318-4841|4147 Swallow Hill,Fresno,California|Speech Pathologist|4/26/2022|
 
+***** UPDATE age by using MODE 
+
+UPDATE club_member_info_cleaned 
+SET age = 40 where age < 18 or age >90 or age is NULL;
+
+
+
 
 
